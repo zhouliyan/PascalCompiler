@@ -71,7 +71,7 @@
         <td>bison生成的预测分析表</td>
     </tr>
 </table>
-*详细教程位于 http://www.cnblogs.com/zhouliyan/*
+*详细教程位于 http://www.cnblogs.com/zhouliyan/tag/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/*
 
 
  
