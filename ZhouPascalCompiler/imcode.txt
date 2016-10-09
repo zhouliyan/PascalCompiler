@@ -1,0 +1,105 @@
+1: t0 := 1
+2: t1 := 4
+3: t2 := t0 * 3
+4: t2 := t2 + t1
+5: t3 := -12
+6: t4 := t2 * 8
+7: t5 := 1.900000
+8: t3[t4] := t5
+9: param n
+10: call SYSIN,1
+11: t6 := 1
+12: i := t6
+13: t7 := n
+14: goto 16
+15: i := i + 1
+16: if i>t7 goto 22
+17: t8 := 'nvalue'
+18: param n
+19: param t8
+20: call SYSOUT,2,1
+21: goto 15
+22: t9 := '2'
+23: param t
+24: param t9
+25: param s
+26: call SYSOUT,3,2
+27: t10 := 0
+28: t11 := t * 4
+29: t12 := t10[t11]
+30: t13 := 3
+31: t14 := t12 + t13
+32: x := t14
+33: t15 := 0
+34: t16 := s * 4
+35: t17 := t15[t16]
+36: if t17<=x goto 38
+37: goto 48
+38: t18 := 0
+39: t19 := j * 4
+40: t20 := t18[t19]
+41: if t20>=x goto 43
+42: goto 48
+43: t22 := 0
+44: t23 := j * 4
+45: t24 := tm + i
+46: t22[t23] := t24
+47: goto 51
+48: t25 := 1
+49: t26 := s - t25
+50: i := t26
+51: if j<t goto 53
+52: goto 59
+53: t27 := 0
+54: t28 := i * 4
+55: t29 := t27[t28]
+56: t30 := t29 + i
+57: tm := t30
+58: goto 51
+59: t31 := 1
+60: t32 := 4
+61: t33 := t31 * 3
+62: t33 := t33 + t32
+63: t34 := -12
+64: t35 := t33 * 8
+65: t36 := t34[t35]
+66: t37 := tm + t36
+67: x := t37
+68: param s
+69: param t
+70: param a
+71: call divide,3
+72: t38 := 1
+73: t39 := d - t38
+74: if s<t39 goto 76
+75: goto 78
+76: if d<s goto 78
+77: goto 84
+78: t41 := 1
+79: t42 := d - t41
+80: param s
+81: param t42
+82: param a
+83: call quicksort,3
+84: t43 := 55.000000
+85: realnum := t43
+86: t44 := 1
+87: param t44
+88: param n
+89: param a
+90: call quicksort,3
+91: call outputdata,0
+92: t45 := 1
+93: t46 := n + t45
+94: n := t46
+95: t47 := 10
+96: if n=t47 goto 98
+97: goto 92
+98: t48 := 3
+99: t49 := 5
+100: t50 := t48 * 3
+101: t50 := t50 + t49
+102: t51 := -12
+103: t52 := t50 * 8
+104: t53 := 9.100000
+105: t51[t52] := t53

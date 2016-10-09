@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1464707210 source:d:\code blocks source\zhoupascalcompiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<token_analyze.h>
+	<operator.h>
+	<data_struct.h>
+	<FourElemFormula.h>
+	<table.h>
+	<queue.h>
+	<symboltable.h>
+	<stack.h>
+	<linkedlist.h>
+	<debug.h>
+
+1464707336 d:\code blocks source\zhoupascalcompiler\token_analyze.h
+
+1464250715 d:\code blocks source\zhoupascalcompiler\operator.h
+
+1464075988 d:\code blocks source\zhoupascalcompiler\data_struct.h
+
+1464330642 d:\code blocks source\zhoupascalcompiler\fourelemformula.h
+
+1464265968 d:\code blocks source\zhoupascalcompiler\table.h
+
+1463478716 d:\code blocks source\zhoupascalcompiler\queue.h
+
+1464705638 d:\code blocks source\zhoupascalcompiler\symboltable.h
+
+1464402203 d:\code blocks source\zhoupascalcompiler\stack.h
+
+1464706083 d:\code blocks source\zhoupascalcompiler\linkedlist.h
+
+1464741238 d:\code blocks source\zhoupascalcompiler\debug.h
+

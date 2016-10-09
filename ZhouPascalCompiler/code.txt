@@ -1,0 +1,44 @@
+program qs;
+var a:array[0..10] of integer;
+b:array[1..3,4..6] of real;
+realnum:real;
+n,s,t:integer;
+
+	procedure outputdata;
+	  var i:integer;
+	  begin
+		b[1,4] := 1.9;
+		readln(n);
+		for i:=1 to n do write(n,'nvalue'); 
+		writeln (t, '2', s);
+	  end;
+	  
+	procedure divide(s,t:integer);
+	  var x,i,j,tm:integer;
+	  begin
+		x:=a[t]+3;
+		if (a[s] <= x) and (a[j]>=x) then 
+			a[j]:=tm + i
+		else i:=s-1;
+		
+		while j<t do
+			tm:=a[i] + i;
+		x := tm + b[1,4]	
+	  end;
+	  
+	procedure quicksort(s,t:integer);
+	  var d:integer;
+	  begin
+		divide(s,t,a);
+		if not (s<d-1) or (d<s) then quicksort(s,d-1,a);
+		realnum := 5.5E+1;
+	  end;
+	  
+begin
+  quicksort(1,n,a);
+  outputdata;
+  repeat
+      n := n+1
+   until n = 10;
+   b[3,5] := 9.1;
+end.
